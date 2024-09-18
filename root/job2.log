@@ -1,0 +1,60 @@
+{
+    "id": 30342062956,
+    "run_id": 10930025936,
+    "workflow_name": "Exploring Workflow Dispatch Trigger",
+    "head_branch": "main",
+    "run_url": "https://api.github.com/repos/FirasMosbahi/lab2/actions/runs/10930025936",
+    "run_attempt": 1,
+    "node_id": "CR_kwDOMztqXc8AAAAHEIcjbA",
+    "head_sha": "b48c262b77c5b40c77712345d5b6f38d43e09e5d",
+    "url": "https://api.github.com/repos/FirasMosbahi/lab2/actions/jobs/30342062956",
+    "html_url": "https://github.com/FirasMosbahi/lab2/actions/runs/10930025936/job/30342062956",
+    "status": "completed",
+    "conclusion": "success",
+    "created_at": "2024-09-18T21:00:11Z",
+    "started_at": "2024-09-18T21:00:23Z",
+    "completed_at": "2024-09-18T21:00:23Z",
+    "name": "job2",
+    "steps": [
+        {
+            "name": "Set up job",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 1,
+            "started_at": "2024-09-18T21:00:16Z",
+            "completed_at": "2024-09-18T21:00:16Z"
+        },
+        {
+            "name": "Printing Custom Message",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 2,
+            "started_at": "2024-09-18T21:00:16Z",
+            "completed_at": "2024-09-18T21:00:16Z"
+        },
+        {
+            "name": "Printing run-job boolean value",
+            "status": "completed",
+            "conclusion": "skipped",
+            "number": 3,
+            "started_at": "2024-09-18T21:00:16Z",
+            "completed_at": "2024-09-18T21:00:16Z"
+        },
+        {
+            "name": "Complete job",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 4,
+            "started_at": "2024-09-18T21:00:16Z",
+            "completed_at": "2024-09-18T21:00:16Z"
+        }
+    ],
+    "check_run_url": "https://api.github.com/repos/FirasMosbahi/lab2/check-runs/30342062956",
+    "labels": [
+        "ubuntu-latest"
+    ],
+    "runner_id": 9,
+    "runner_name": "GitHub Actions 8",
+    "runner_group_id": 2,
+    "runner_group_name": "GitHub Actions"
+}
