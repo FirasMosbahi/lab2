@@ -26,4 +26,4 @@ jobs:
         run: echo ${{github.event.inputs.custom_message}}
       - name: Printing run-job boolean value
         if: ${{ github.event.inputs.run_job == true || github.event.inputs.run_job }}
-        run: echo "run_job is enabled: ${{ github.event.inputs.run_job }}"
+        run: echo "run_job is enabled ${{ github.event.inputs.run_job }}"
